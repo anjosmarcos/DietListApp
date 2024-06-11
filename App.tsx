@@ -5,7 +5,7 @@ import {Text} from './src/components/Text/Text';
 function App(): JSX.Element {
   return (
     <SafeAreaView>
-      <Text>Ola mundo</Text>
+      <Text preset="HeadingSmall">Ola mundo</Text>
     </SafeAreaView>
   );
 }
